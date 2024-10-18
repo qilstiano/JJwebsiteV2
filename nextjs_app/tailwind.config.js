@@ -14,10 +14,31 @@ module.exports = {
       padding: "2rem",
       screens: {
         "2xl": "1400px",
-      },
+      }
     },
     extend: {
+      screens: {
+        "xs": "400px",
+        "2xl": "1400px",
+      },
       colors: {
+        "beige": "#F1E8DB",
+        "dark-green": "#306054",
+        "extra-dark-green": "#1a4238",
+        "normal-green": "#91BA60",
+        "light-green": "#A2C17C",
+        "violet": "#674C93",
+        "dull-violet": "#3B2A57",
+        "dark-violet": "#482b77",
+        "extra-dark-violet": "#3B2A57",
+        "light-violet": "#A48DC8",
+        "extra-light-violet": "#BBAFCB",
+        "grey": "#d6d2d2",
+        "dark-grey": "#5E5E5E",
+        "stone": "#73717d",
+        "brown": "#5a3b22",
+        "dull-blue": "#A5B7DA",
+
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
