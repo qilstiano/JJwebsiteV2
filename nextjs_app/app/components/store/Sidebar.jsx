@@ -4,9 +4,7 @@ import Link from 'next/link';
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
   SheetHeader,
-  SheetTitle,
   SheetTrigger,
   SheetOverlay,
 } from '@/components/ui/sheet';
@@ -24,28 +22,13 @@ const SideBarContent = () => {
       iconSrc: 'Programmes.png',
     },
     {
-      title: 'Analytics',
-      route: 'analytics',
-      iconSrc: 'Analytics.png',
-    },
-    {
       title: 'My Purchases',
       route: 'mypurchases',
       iconSrc: 'Purchases.png',
     },
-    {
-      title: 'Affiliate Link',
-      route: 'affiliatelink',
-      iconSrc: 'Affiliate.png',
-    },
   ];
 
   const navFooterData = [
-    {
-      title: 'Tutorial',
-      route: 'tutorial',
-      iconSrc: 'Tutorial.png',
-    },
     {
       title: 'Ask Us A Question',
       route: 'ask',

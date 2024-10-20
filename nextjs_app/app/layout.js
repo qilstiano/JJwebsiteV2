@@ -13,16 +13,22 @@ const inter = Inter({ subsets: ['latin'] });
 export default function RootLayout({ children }) {
   const router = useRouter();
   const pathname = usePathname();
-  
+
+  const SpecialPages = [
+    "/login", "/signup", "/forget-password", "/store", "/programmes", "/mypurchases"
+  ]
+
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar />
+        {SpecialPages.indexOf(pathname) < 0 &&
+          <Navbar />
+        }
         <Toaster position="bottom-right" />
         {children}
-        
+
         {/* Only display CTA and Footer on specific routes */}
-        {pathname !== "/login" && pathname !== "/signup" && pathname !== "/forget-password" && pathname !== "/store" && pathname !== "/programmes" && pathname !== "/analytics" && pathname !== "/mypurchases" && pathname !== "/affiliatelink" && (
+        {SpecialPages.indexOf(pathname) < 0 && (
           <>
             <CTA />
             <footer className='text-md text-center py-12 bg-light-green'>
