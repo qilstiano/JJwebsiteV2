@@ -1,7 +1,7 @@
 'use client';
 import Image from 'next/image';
 import { useForm } from 'react-hook-form';
-import { joinUsSchema } from '@/schema';
+import { contatcUsSchema } from '@/schema';
 import { zodResolver } from '@hookform/resolvers/zod';
 import {
   Form,
@@ -29,9 +29,9 @@ const Nav = [
   },
 ]
 
-export default function AboutUS() {
+export default function SupportUs() {
   const form = useForm({
-    resolver: zodResolver(joinUsSchema),
+    resolver: zodResolver(contatcUsSchema),
     defaultValues: {
       firstName: '',
       lastName: '',

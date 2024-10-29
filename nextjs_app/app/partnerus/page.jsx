@@ -29,7 +29,7 @@ const Nav = [
   },
 ]
 
-export default function AboutUS() {
+export default function PartnerUs() {
   const form = useForm({
     resolver: zodResolver(joinUsSchema),
     defaultValues: {

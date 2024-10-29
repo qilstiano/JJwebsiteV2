@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
   const pathname = usePathname();
 
   const SpecialPages = [
-    "/login", "/signup", "/forget-password", "/store", "/programmes", "/mypurchases"
+    "/login", "/signup", "/forget-password", "/store", "/programmes", "/mypurchases", "/loading"
   ]
 
   return (

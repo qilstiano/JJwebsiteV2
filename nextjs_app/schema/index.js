@@ -80,7 +80,7 @@ export const storeItemsSchema = zod.object({
   }),
 });
 
-export const joinUsSchema = zod.object({
+export const contatcUsSchema = zod.object({
   firstName: zod.string().min(1, {
     message: 'First name cannot be empty!',
   }),
