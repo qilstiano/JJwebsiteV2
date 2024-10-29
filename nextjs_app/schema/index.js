@@ -79,3 +79,24 @@ export const storeItemsSchema = zod.object({
     message: 'Minimum of 1 student(s) expected',
   }),
 });
+
+export const joinUsSchema = zod.object({
+  firstName: zod.string().min(1, {
+    message: 'First name cannot be empty!',
+  }),
+  lastName: zod.string().min(1, {
+    message: 'Last name cannot be empty!',
+  }),
+  email: zod.string().email({
+    message: 'Enter a valid Email',
+  }),
+  number: zod.number().min(8, {
+    message: 'Enter a valid phone number',
+  }),
+  subject: zod.string().min(1, {
+    message: 'Subject cannot be empty!',
+  }),
+  message: zod.string().min(1, {
+    message: 'Message cannot be empty!',
+  }),
+});
