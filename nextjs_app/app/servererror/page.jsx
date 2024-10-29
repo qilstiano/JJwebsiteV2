@@ -10,7 +10,7 @@ export default function ServerError() {
             Uh oh!
             <span className='text-white absolute -top-0.5 -left-0.5'>Uh oh!</span>
           </p>
-          <p className='text-black text-[24px]'>Server Error</p>
+          <p className='text-black text-[24px] uppercase'>Server Error</p>
           <p className='text-black text-[18px]'>Error code: 500</p>
           <p className='text-black text-[18px]'>There seems to be an issue with either our server or your connection. Please try again soon.</p>
           <p className='font-bold text-[#267A6D] text-[32px] relative'>
