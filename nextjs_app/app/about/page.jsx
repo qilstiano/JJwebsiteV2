@@ -85,7 +85,7 @@ const Nav = [
   "Partners",
 ]
 
-export default function AboutUS() {
+export default function AboutUs() {
   return (
     <main className="w-full pt-8 flex flex-col bg-gradient-to-r from-light-violet to-extra-light-violet min-h-screen">
       <section className="bg-[url('/images/AboutUs/OurVisionMasthead.jpg')] bg-cover bg-center relative">
@@ -103,7 +103,7 @@ export default function AboutUS() {
         </div>
       </section>
 
-      <section className='max-w-6xl mx-auto flex gap-10 items-start pt-8'>
+      <section className='max-w-6xl mx-auto flex gap-10 items-start pt-8 pb-6'>
         <Image alt="About Us Image" className='' src={`/images/AboutUs/AboutUs.png`} width={500} height={500} />
         <div className='font-normal text-white text-base flex flex-col gap-5 w-[60%]'>
           <p className='font-semibold text-white text-[36px] pb-3'>A message from our Founders,</p>
@@ -118,7 +118,7 @@ export default function AboutUS() {
       </section>
 
       <section className='bg-[#836AA4]'>
-        <div className='max-w-6xl mx-auto text-center pt-16'>
+        <div className='max-w-6xl mx-auto text-center pt-16 pb-6'>
           <h6 className='text-white text-[46px] font-bold'>Meet the Team</h6>
           <p className='text-white text-[28px] font-normal'>For Students, by Students</p>
           <div className='grid grid-cols-5 gap-8 mt-16'>
@@ -135,7 +135,7 @@ export default function AboutUS() {
       </section>
 
       <section className='bg-[#674C93]'>
-        <div className='max-w-6xl mx-auto text-center pt-16'>
+        <div className='max-w-6xl mx-auto text-center pt-16 pb-6'>
           <h6 className='text-white text-[46px] font-bold'>Meet Our Advisors</h6>
           <p className='text-white text-[28px] font-normal'>A wealth of experience and subject matter expertise</p>
           <div className='grid grid-cols-5 gap-8 mt-16'>
