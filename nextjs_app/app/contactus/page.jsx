@@ -55,7 +55,7 @@ export default function ContactUs() {
       <section className="bg-[url('/images/JoinUs/ContactUsMasthead.jpg')] bg-cover bg-center relative">
         <div className='bg-[#674C93AD] absolute top-0 bottom-0 right-0 left-0 z-20'></div>
         <div className='max-w-6xl mx-auto relative z-30 min-h-[350px] flex flex-col justify-center px-5'>
-          <h2 className='font-bold text-white text-7xl'>Contact Us</h2>
+          <h2 className='font-bold text-white text-5xl md:text-7xl'>Contact Us</h2>
         </div>
       </section>
 

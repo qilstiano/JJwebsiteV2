@@ -73,7 +73,7 @@ export default function JoinUs() {
       <section className="bg-[url('/images/JoinUs/JoinUsMasthead.jpg')] bg-cover bg-center relative">
         <div className='bg-[#674C93AD] absolute top-0 bottom-0 right-0 left-0 z-20'></div>
         <div className='max-w-6xl mx-auto relative z-30 min-h-[350px] flex flex-col justify-center px-5'>
-          <h2 className='font-bold text-white text-7xl'>Get Involved</h2>
+          <h2 className='font-bold text-white text-5xl md:text-7xl'>Get Involved</h2>
         </div>
         <div className='max-w-6xl mx-auto flex relative z-30 gap-1 w-full px-5'>
           {Nav.map((item, index) => {

@@ -52,14 +52,14 @@ export default function Testimonials() {
     <main className="w-full pt-8 flex flex-col bg-[#4B3372] min-h-screen">
       <section className="bg-[url('/images/Testimonials/TestimonialsMasthead.jpg')] bg-cover bg-center relative">
         <div className='bg-[#674C93AD] absolute top-0 bottom-0 right-0 left-0 z-20'></div>
-        <div className='max-w-6xl mx-auto relative z-30 min-h-[350px] flex flex-col justify-center'>
-          <h2 className='font-bold text-white text-[72px]'>Testimonials</h2>
+        <div className='max-w-6xl mx-auto relative z-30 min-h-[350px] flex flex-col justify-center px-5'>
+          <h2 className='font-bold text-white text-5xl md:text-7xl'>Testimonials</h2>
         </div>
       </section>
       
       <section className='bg-[#4B3372]'>
         <div className='max-w-6xl mx-auto text-center pt-16 pb-10'>
-          <h6 className='text-white text-[46px] font-bold'>Some of Our Past Clients</h6>
+          <h6 className='text-white text-3xl lg:text-5xl font-bold'>Some of Our Past Clients</h6>
         </div>
         <div className="bg-[#BBAFCB]">
           <div className="max-w-6xl mx-auto">
@@ -92,10 +92,10 @@ export default function Testimonials() {
       </section>
 
       <section className='bg-[#4B3372] pb-14'>
-        <div className='max-w-6xl mx-auto text-center pt-16 pb-10'>
-          <h6 className='text-white text-[46px] font-bold'>See What They Say</h6>
+        <div className='max-w-6xl mx-auto text-center pt-16 pb-10 px-5'>
+          <h6 className='text-white text-3xl lg:text-5xl font-bold'>See What They Say</h6>
           <div className='w-[157px] h-1 bg-[#FFFFFF] mx-auto mt-2 mb-5'></div>
-          <p className='text-white text-[25px] font-normal'>Our success is built on strong relationships with our clients, whosefeedback is crucial for us to continually improve and innovate. Here’s whatour partners and learners have to say about their experiences with us.</p>
+          <p className='text-white text-2xl font-normal'>Our success is built on strong relationships with our clients, whose feedback is crucial for us to continually improve and innovate. Here’s what our partners and learners have to say about their experiences with us.</p>
         </div>
         <div className="bg-[url('/images/Testimonials/TestimonialsBackground.jpg')] bg-cover bg-center relative">
           <div className='bg-[#1F0B3F]/85 absolute top-0 bottom-0 right-0 left-0 z-20'></div>
@@ -126,7 +126,7 @@ export default function Testimonials() {
 
       <section className='bg-[#4B3372]'>
         <div className='max-w-6xl mx-auto text-center pb-10'>
-          <h6 className='text-white text-[46px] font-bold'>Past Experiences</h6>
+          <h6 className='text-white text-3xl lg:text-5xl font-bold'>Past Experiences</h6>
         </div>
         <div className="bg-[#BBAFCB]">
           <div className="max-w-6xl mx-auto relative z-30">

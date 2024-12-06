@@ -91,10 +91,10 @@ export default function AboutUs() {
       <section className="bg-[url('/images/AboutUs/OurVisionMasthead.jpg')] bg-cover bg-center relative">
         <div className='bg-[#674C93AD] absolute top-0 bottom-0 right-0 left-0 z-20'></div>
         <div className='max-w-6xl mx-auto relative z-30 min-h-[350px] flex flex-col justify-center px-5'>
-          <h2 className='font-bold text-white text-[72px]'>Our Vision:</h2>
-          <h1 className='font-bold text-white text-[50px]'>A Catalyst for the Empowerment of changemakers</h1>
+          <h2 className='font-bold text-white text-5xl md:text-7xl'>Our Vision:</h2>
+          <h1 className='font-bold text-white text-3xl md:text-5xl mt-3'>A Catalyst for the Empowerment of changemakers</h1>
         </div>
-        <div className='max-w-6xl mx-auto flex flex-wrap relative z-30 gap-1 w-full'>
+        <div className='max-w-6xl mx-auto flex flex-wrap relative z-30 gap-1 w-full px-5'>
           {Nav.map((item, index) => {
             return (
               <a index={index} href={`#${item}`} className='text-white text-base text-center bg-[#674C93] hover:bg-[#7A5BAD] py-1.5 px-3 border-2 border-white rounded-lg grow'>{item}</a>
@@ -118,9 +118,9 @@ export default function AboutUs() {
       </section>
 
       <section className='bg-[#836AA4]'>
-      <div className='max-w-6xl mx-auto text-center pt-16 pb-6 px-5'>
-          <h6 className='text-white text-[46px] font-bold'>Meet the Team</h6>
-          <p className='text-white text-[28px] font-normal'>For Students, by Students</p>
+        <div className='max-w-6xl mx-auto text-center pt-16 pb-6 px-5'>
+          <h6 className='text-white text-3xl lg:text-5xl font-bold'>Meet the Team</h6>
+          <p className='text-white text-2xl mt-2 font-normal'>For Students, by Students</p>
           <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5 mt-16'>
             {Team.map((member, index) => {
               return (
@@ -136,8 +136,8 @@ export default function AboutUs() {
 
       <section className='bg-[#674C93]'>
         <div className='max-w-6xl mx-auto text-center pt-16 pb-6 px-5'>
-          <h6 className='text-white text-[46px] font-bold'>Meet Our Advisors</h6>
-          <p className='text-white text-[28px] font-normal'>A wealth of experience and subject matter expertise</p>
+          <h6 className='text-white text-3xl lg:text-5xl font-bold'>Meet Our Advisors</h6>
+          <p className='text-white text-2xl mt-2 font-normal'>A wealth of experience and subject matter expertise</p>
           <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5 mt-16'>
             {Team.map((member, index) => {
               return (
@@ -152,15 +152,15 @@ export default function AboutUs() {
       </section>
 
       <section className='bg-gradient-to-b from-[#866BB1] to-[#B8ACC8]'>
-        <div className='max-w-6xl mx-auto text-center pt-16 px-5'>
-          <h6 className='text-white text-[46px] font-bold pb-8'>Our Values</h6>
+        <div className='max-w-6xl mx-auto text-center pt-16 px-5 px-5'>
+          <h6 className='text-white text-3xl lg:text-5xl font-bold pb-8'>Our Values</h6>
           <Image alt="Our Values Image" className='w-full' src={`/images/AboutUs/OurValues.png`} width={1000} height={500} />
         </div>
       </section>
 
       <section className='bg-gradient-to-b to-[#674C93] from-[#B8ACC8]'>
-        <div className='max-w-6xl mx-auto text-center pt-16'>
-          <h6 className='text-white text-[46px] font-bold pb-8'>Our Journey</h6>
+        <div className='max-w-6xl mx-auto text-center pt-16 px-5'>
+          <h6 className='text-white text-3xl lg:text-5xl font-bold pb-8'>Our Journey</h6>
         </div>
         <Carousel className="max-w-3xl w-2/3 mx-auto">
           <CarouselContent className="ml-0">
@@ -230,9 +230,9 @@ export default function AboutUs() {
       </section>
 
       <section className='bg-[#674C93]'>
-        <div className='max-w-6xl mx-auto text-center pt-28 pb-10'>
-          <h6 className='text-white text-[46px] font-bold'>Our Supporters</h6>
-          <p className='text-white text-[28px] font-normal'>Those who make it all possible!</p>
+        <div className='max-w-6xl mx-auto text-center pt-28 pb-10 px-5'>
+          <h6 className='text-white text-3xl lg:text-5xl font-bold'>Our Supporters</h6>
+          <p className='text-white text-2xl mt-2 font-normal'>Those who make it all possible!</p>
         </div>
         <div className="bg-[#BBAFCB]">
           <div className="max-w-6xl mx-auto">
@@ -265,9 +265,9 @@ export default function AboutUs() {
       </section>
 
       <section className='bg-[#674C93] pb-14'>
-        <div className='max-w-6xl mx-auto text-center pt-16 pb-10'>
-          <h6 className='text-white text-[46px] font-bold'>Our Partners</h6>
-          <p className='text-white text-[28px] font-normal'>Charities & Organisations we work with</p>
+        <div className='max-w-6xl mx-auto text-center pt-16 pb-10 px-5'>
+          <h6 className='text-white text-3xl lg:text-5xl font-bold'>Our Partners</h6>
+          <p className='text-white text-2xl mt-2 font-normal'>Charities & Organisations we work with</p>
         </div>
         <div className="bg-[#BBAFCB]">
           <div className="max-w-6xl mx-auto">
