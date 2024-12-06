@@ -162,10 +162,75 @@ export default function AboutUs() {
         <div className='max-w-6xl mx-auto text-center pt-16'>
           <h6 className='text-white text-[46px] font-bold pb-8'>Our Journey</h6>
         </div>
+        <Carousel className="max-w-3xl w-2/3 mx-auto">
+          <CarouselContent className="ml-0">
+            <CarouselItem className="w-full mx-auto bg-[#F1E8DB] flex gap-5 rounded-md p-5 border-[#306054] border-l-8 border-b-8 mb-10 relative">
+              <Image alt="Our Journey Image" className='w-1/2' src={`/images/AboutUs/OurJourneyImage.jpg`} width={400} height={250} />
+              <div className='w-full flex flex-col relative'>
+                <p className='font-bold text-[28px] text-white rounded-md bg-[#306054] px-4 py-1 self-center'>2022</p>
+                <ul className='text-black flex flex-col gap-2 ml-5 uppercase mt-5'>
+                  <li className='list-disc font-bold'>Founded in October 2022</li>
+                  <li className='list-disc'>CYZ</li>
+                  <li className='list-disc'>CYZ</li>
+                </ul>
+                <CarouselPrevious className="top-20 left-0 top-full -translate-y-full bg-[#306054] text-white hover:bg-[#306054]/80 hover:text-white" />
+                <CarouselNext className="top-20 right-10 top-full -translate-y-full bg-[#306054] text-white hover:bg-[#306054]/80 hover:text-white" />
+              </div>
+              <div className='absolute top-full left-0 border-[#306054] border-t-[40px] border-x-[10px] border-x-transparent translate-x-2.5'></div>
+            </CarouselItem>
+
+            <CarouselItem className="w-full mx-auto bg-[#F1E8DB] flex gap-5 rounded-md p-5 border-[#306054] border-l-8 border-b-8 mb-10 relative">
+              <Image alt="Our Journey Image" className='w-1/2' src={`/images/AboutUs/OurJourneyImage.jpg`} width={400} height={250} />
+              <div className='w-full flex flex-col relative'>
+                <p className='font-bold text-[28px] text-white rounded-md bg-[#306054] px-4 py-1 self-center'>2023</p>
+                <ul className='text-black flex flex-col gap-2 ml-5 uppercase mt-5'>
+                  <li className='list-disc font-bold'>CYZ</li>
+                  <li className='list-disc'>CYZ</li>
+                  <li className='list-disc'>CYZ</li>
+                </ul>
+                <CarouselPrevious className="top-20 left-0 top-full -translate-y-full bg-[#306054] text-white hover:bg-[#306054]/80 hover:text-white" />
+                <CarouselNext className="top-20 right-10 top-full -translate-y-full bg-[#306054] text-white hover:bg-[#306054]/80 hover:text-white" />
+              </div>
+              <div className='absolute top-full left-1/3 -translate-x-1 border-[#306054] border-t-[40px] border-x-[10px] border-x-transparent translate-x-2.5'></div>
+            </CarouselItem>
+
+            <CarouselItem className="w-full mx-auto bg-[#F1E8DB] flex gap-5 rounded-md p-5 border-[#306054] border-l-8 border-b-8 mb-10 relative">
+              <Image alt="Our Journey Image" className='w-1/2' src={`/images/AboutUs/OurJourneyImage.jpg`} width={400} height={250} />
+              <div className='w-full flex flex-col relative'>
+                <p className='font-bold text-[28px] text-white rounded-md bg-[#306054] px-4 py-1 self-center'>2024</p>
+                <ul className='text-black flex flex-col gap-2 ml-5 uppercase mt-5'>
+                  <li className='list-disc font-bold'>CYZ</li>
+                  <li className='list-disc'>CYZ</li>
+                  <li className='list-disc'>CYZ</li>
+                </ul>
+                <CarouselPrevious className="top-20 left-0 top-full -translate-y-full bg-[#306054] text-white hover:bg-[#306054]/80 hover:text-white" />
+                <CarouselNext className="top-20 right-10 top-full -translate-y-full bg-[#306054] text-white hover:bg-[#306054]/80 hover:text-white" />
+              </div>
+              <div className='absolute top-full left-2/3 -translate-x-2 border-[#306054] border-t-[40px] border-x-[10px] border-x-transparent translate-x-2.5'></div>
+            </CarouselItem>
+          </CarouselContent>
+        </Carousel>
+        <div className='max-w-3xl w-2/3 mx-auto mt-4 relative'>
+          <div className='absolute w-full top-1/2 -translate-y-1/2 translate-x-1 h-2 bg-white rounded-lg'></div>
+          <div className='flex justify-between'>
+            <div className='bg-[#306054] rounded-full w-10 h-10 border-4 relative'>
+              <p className='text-white text-[24px] absolute top-full left-0 -translate-x-1/4 translate-y-2'>2022</p>
+            </div>
+            <div className='bg-[#306054] rounded-full w-10 h-10 border-4 relative'>
+              <p className='text-white text-[24px] absolute top-full left-0 -translate-x-1/4 translate-y-2'>2023</p>
+            </div>
+            <div className='bg-[#306054] rounded-full w-10 h-10 border-4 relative'>
+              <p className='text-white text-[24px] absolute top-full left-0 -translate-x-1/4 translate-y-2'>2024</p>
+            </div>
+            <div className='relative'>
+              <div className='border-white border-l-[25px] border-y-[25px] border-y-transparent rounded-lg translate-x-2.5'></div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section className='bg-[#674C93]'>
-        <div className='max-w-6xl mx-auto text-center pt-16 pb-10'>
+        <div className='max-w-6xl mx-auto text-center pt-28 pb-10'>
           <h6 className='text-white text-[46px] font-bold'>Our Supporters</h6>
           <p className='text-white text-[28px] font-normal'>Those who make it all possible!</p>
         </div>
