@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
   const pathname = usePathname();
 
   const SpecialPages = [
-    "/login", "/signup", "/forget-password", "/store", "/programmes", "/mypurchases", "/loading"
+    "/", "/login", "/signup", "/forget-password", "/store", "/programmes", "/mypurchases", "/loading"
   ]
 
   return (
@@ -26,6 +26,13 @@ export default function RootLayout({ children }) {
         }
         <Toaster position="bottom-right" />
         {children}
+
+        {/* Display only Footer on homepage */}
+        {pathname === "/" && (
+          <>
+            <Footer isHome={true} />
+          </>
+        )}
 
         {/* Only display CTA and Footer on specific routes */}
         {SpecialPages.indexOf(pathname) < 0 && (

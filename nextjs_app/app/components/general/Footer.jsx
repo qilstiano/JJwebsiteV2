@@ -3,9 +3,9 @@ import Image from 'next/image';
 import styles from '../../styles/Footer.module.css';
 import logo from '/public/images/JJLogo.svg'; 
 
-const Footer = () => {
+const Footer = (props) => {
   return (
-    <footer className={styles.footer}>
+    <footer className={styles.footer} style={{ backgroundImage : props.isHome ? `url(/images/Footer_Homepage.svg)` : `url(/images/Footer.svg)` }}>
       <div className={styles.container}>
         <div className={styles.column}>
           <h4>COMPANY</h4>

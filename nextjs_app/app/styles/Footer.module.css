@@ -1,5 +1,4 @@
 .footer {
-  background-image: url('/images/Footer.svg');
   background-size: cover;
   background-position: center bottom;
   display: flex;
@@ -9,7 +8,7 @@
   padding-top: 320px;
   position: relative;
   min-height: 80vh;
-  margin-top:-1px;
+  background-color: #4B3372;
 }
 
 .container {
