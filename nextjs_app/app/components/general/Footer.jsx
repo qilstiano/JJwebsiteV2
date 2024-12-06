@@ -44,7 +44,7 @@ const Footer = () => {
       </div>
       <div className={styles.footerBottom}>
         <Image src={logo} alt="Company Logo" width={100} height={100} />
-        <p>© 2024 JALAN JOURNEY. ALL RIGHTS RESERVED.</p>
+        <p className='text-[#306054] font-bold'>© 2024 JALAN JOURNEY. ALL RIGHTS RESERVED.</p>
       </div>
     </footer>
   );
