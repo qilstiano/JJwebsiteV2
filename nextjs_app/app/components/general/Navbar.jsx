@@ -13,9 +13,8 @@ const Navbar = () => {
   return (   
     <header className={styles.header}>
       <nav className={styles.navbar}>
-
         <div className={styles.logo}>
-          <Image src="/images/JJlogo.svg" alt="Jalan Journey" width={100} height={100}/>
+          <a href="/"><Image src="/images/JJlogo.svg" alt="Jalan Journey" width={100} height={100}/></a>
         </div>
         <div className={styles.menuContainer}>
           <div className={styles.menu} onClick={toggleDropdown}>

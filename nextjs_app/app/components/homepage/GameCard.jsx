@@ -14,7 +14,7 @@ const GameCard = (props) => {
             ) : (<></>)}
             <div className='text-center leading-snug flex flex-col justify-between h-full'>
                 <div className='grow justify-center items-center flex'>
-                    <h3 className='text-xl font-bold'>{props.title}</h3>
+                    <h3 className='text-black text-xl font-bold'>{props.title}</h3>
                 </div>
                 <p className='text-black mt-3 text-sm'>{props.description}</p>
                 <div className='absolute left-0 -bottom-4 right-0'>

@@ -154,56 +154,58 @@ export const GamePopup = (props) => {
                 </video>
               </div>
             }
-            <div className='border-2 border-white rounded-lg px-4 pt-3 pb-2.5'>
-              <Form {...form}>
-                <form
-                  className="gap-2 w-full justify-center flex flex-col">
-                    <FormField
-                      control={form.control}
-                      name="numOfStudents"
-                      render={({ field }) => (
-                        <FormItem className="flex gap-5 items-center justify-between space-y-0">
-                          <FormLabel className="text-sm">Number of Students</FormLabel>
-                          <FormControl>
-                            <Input {...field} type="number" className="w-20 text-black py-0.5 px-2 m-0 h-auto" />
-                          </FormControl>
-                          <FormMessage />
-                        </FormItem>
-                      )}
-                    />
-                    <FormField
-                      control={form.control}
-                      name="numOfConnections"
-                      render={({ field }) => (
-                        <FormItem className="flex gap-5 items-center justify-between space-y-0">
-                          <FormLabel className="text-sm">Number of Connections</FormLabel>
-                          <FormControl>
-                            <Input {...field} type="number" className="w-20 text-black py-0.5 px-2 m-0 h-auto" />
-                          </FormControl>
-                          <FormMessage />
-                        </FormItem>
-                      )}
-                    />
-                    <FormField
-                      control={form.control}
-                      name="hours"
-                      render={({ field }) => (
-                        <FormItem className="flex gap-5 items-center justify-between space-y-0">
-                          <FormLabel className="text-sm">Hours</FormLabel>
-                          <FormControl>
-                            <Input {...field} type="number" className="w-20 text-black py-0.5 px-2 m-0 h-auto" />
-                          </FormControl>
-                          <FormMessage />
-                        </FormItem>
-                      )}
-                    />
-                    <div className='flex justify-around mt-1'>
-                      <Button onClick={() => addToCart(game)} type="button" className='font-bold rounded-lg bg-dull-violet border border-white hover:border-white hover:bg-white/5 uppercase'>Add to Cart</Button>
-                      <Button onClick={() => buyNow(game)} type="button" className='font-bold rounded-lg bg-dark-green border border-white hover:border-white hover:bg-extra-dark-green uppercase'>Buy Now</Button>
-                    </div>
-                </form>
-              </Form>
-            </div>
+            {cart && setCart && setCartOpen && (
+              <div className='border-2 border-white rounded-lg px-4 pt-3 pb-2.5'>
+                <Form {...form}>
+                  <form
+                    className="gap-2 w-full justify-center flex flex-col">
+                      <FormField
+                        control={form.control}
+                        name="numOfStudents"
+                        render={({ field }) => (
+                          <FormItem className="flex gap-5 items-center justify-between space-y-0">
+                            <FormLabel className="text-sm">Number of Students</FormLabel>
+                            <FormControl>
+                              <Input {...field} type="number" className="w-20 text-black py-0.5 px-2 m-0 h-auto" />
+                            </FormControl>
+                            <FormMessage />
+                          </FormItem>
+                        )}
+                      />
+                      <FormField
+                        control={form.control}
+                        name="numOfConnections"
+                        render={({ field }) => (
+                          <FormItem className="flex gap-5 items-center justify-between space-y-0">
+                            <FormLabel className="text-sm">Number of Connections</FormLabel>
+                            <FormControl>
+                              <Input {...field} type="number" className="w-20 text-black py-0.5 px-2 m-0 h-auto" />
+                            </FormControl>
+                            <FormMessage />
+                          </FormItem>
+                        )}
+                      />
+                      <FormField
+                        control={form.control}
+                        name="hours"
+                        render={({ field }) => (
+                          <FormItem className="flex gap-5 items-center justify-between space-y-0">
+                            <FormLabel className="text-sm">Hours</FormLabel>
+                            <FormControl>
+                              <Input {...field} type="number" className="w-20 text-black py-0.5 px-2 m-0 h-auto" />
+                            </FormControl>
+                            <FormMessage />
+                          </FormItem>
+                        )}
+                      />
+                      <div className='flex justify-around mt-1'>
+                        <Button onClick={() => addToCart(game)} type="button" className='font-bold rounded-lg bg-dull-violet border border-white hover:border-white hover:bg-white/5 uppercase'>Add to Cart</Button>
+                        <Button onClick={() => buyNow(game)} type="button" className='font-bold rounded-lg bg-dark-green border border-white hover:border-white hover:bg-extra-dark-green uppercase'>Buy Now</Button>
+                      </div>
+                  </form>
+                </Form>
+              </div>
+            )}
           </section>
         </section>
 

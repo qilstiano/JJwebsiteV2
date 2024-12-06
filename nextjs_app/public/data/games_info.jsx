@@ -8,6 +8,7 @@ export const games_info = [
     "values":["Fast Fashion","Budgeting","Decision-Making"],
     "button":"Mini-Game",
     "slug":"runaway",
+    "category": ["individuals", "institutions"],
     "connections": 50,
     "price": 3,
     "links": [
@@ -39,6 +40,7 @@ export const games_info = [
     "values":["Recycling Literacy","Materials Identification"],
     "button":"Mini-Game",
     "slug":"recycleme",
+    "category": ["individuals", "organisations"],
     "connections": 20,
     "price": 8,
     "links": [
@@ -68,6 +70,7 @@ export const games_info = [
     "values":["Financial Literacy","Social Inequality","Budgeting"],
     "button":"Mini-Game",
     "slug":"supermarket-scramble",
+    "category": ["organisations", "institutions"],
     "connections": 30,
     "price": 5,
     "links": [
@@ -99,6 +102,7 @@ export const games_info = [
     "values":["Food Waste","Educated Judgements","Contextual Clueing"],
     "button":"Mini-Game",
     "slug":"balance-the-bistro",
+    "category": ["individuals", "organisations", "institutions"],
     "connections": 10,
     "price": 10,
     "links": [
@@ -129,6 +133,7 @@ export const games_info = [
     "values":["Fast Fashion","Recycling Literacy","Food Waste"],
     "button":"Whole Module",
     "slug":"environment-and-sustainability-world",
+    "category": ["individuals", "organisations", "institutions"],
     "connections": 15,
     "price": 9,
     "links": [
@@ -160,6 +165,7 @@ export const games_info = [
     "values":["Decision-Making","Opportunity Cost"],
     "button":"Whole Module",
     "slug":"social-inequality-world",
+    "category": ["individuals", "organisations", "institutions"],
     "connections": 18,
     "price": 6,
     "links": [
