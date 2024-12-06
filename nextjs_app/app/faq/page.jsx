@@ -57,14 +57,14 @@ export default function Testimonials() {
     <main className="w-full pt-8 flex flex-col bg-[#4B3372] min-h-screen">
       <section className="bg-[url('/images/Testimonials/TestimonialsMasthead.jpg')] bg-cover bg-center relative">
         <div className='bg-[#674C93AD] absolute top-0 bottom-0 right-0 left-0 z-20'></div>
-        <div className='max-w-6xl mx-auto relative z-30 min-h-[350px] flex flex-col justify-center'>
-          <h2 className='font-normal text-white text-[72px]'>FAQ</h2>
-          <h2 className='font-bold text-white text-[72px]'>Frequently Asked Questions</h2>
+        <div className='max-w-6xl mx-auto relative z-30 min-h-[350px] flex flex-col justify-center px-5'>
+          <h2 className='font-normal text-white text-7xl'>FAQ</h2>
+          <h2 className='font-bold text-white text-7xl'>Frequently Asked Questions</h2>
         </div>
       </section>
       
       <section className='bg-[#674C93] pt-16 pb-10'>
-        <Accordion className="max-w-[80%] mx-auto" type="single" collapsible>
+        <Accordion className="px-5 lg:max-w-[80%] mx-auto" type="single" collapsible>
           <AccordionItem value="institutions" className="border-none bg-[#8A74A5] rounded-sm">
             <AccordionTrigger className="text-white text-[46px] hover:no-underline px-10">For Institutions</AccordionTrigger>
             <AccordionContent className="pb-0">

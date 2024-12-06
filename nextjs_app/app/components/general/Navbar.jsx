@@ -23,19 +23,19 @@ const Navbar = () => {
           </div>
           {dropdownOpen && (
             <div className={styles.dropdown}>
-              <a href="#about">About Us</a>
-              <a href="#faq">FAQ</a>
-              <a href="#testimonials">Testimonials</a>
-              <a href="#news">News & Media</a>
-              <a href="#involved">Get Involved</a>
-              <a href="#contact">Contact Us</a>
+              <a href="/about">About Us</a>
+              <a href="/faq">FAQ</a>
+              <a href="/testimonials">Testimonials</a>
+              {/* <a href="#news">News & Media</a> */}
+              <a href="/joinus">Get Involved</a>
+              <a href="/contactus">Contact Us</a>
             </div>
           )}
         </div>
         <div className={styles.links}>
-          <a href="#institutions">Institutions</a>
-          <a href="#organisations">Organisations</a>
-          <a href="#individuals">Individuals</a>
+          <a href="/institutions">Institutions</a>
+          <a href="/organisations">Organisations</a>
+          <a href="/individuals">Individuals</a>
         </div>
         <div className={styles.auth}>
           <button className={styles.login}>Log In</button>

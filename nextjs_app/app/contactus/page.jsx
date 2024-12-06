@@ -54,18 +54,18 @@ export default function ContactUs() {
     <main className="w-full pt-8 flex flex-col bg-gradient-to-r from-light-violet to-extra-light-violet min-h-screen">
       <section className="bg-[url('/images/JoinUs/ContactUsMasthead.jpg')] bg-cover bg-center relative">
         <div className='bg-[#674C93AD] absolute top-0 bottom-0 right-0 left-0 z-20'></div>
-        <div className='max-w-6xl mx-auto relative z-30 min-h-[350px] flex flex-col justify-center'>
-          <h2 className='font-bold text-white text-[72px]'>Contact Us</h2>
+        <div className='max-w-6xl mx-auto relative z-30 min-h-[350px] flex flex-col justify-center px-5'>
+          <h2 className='font-bold text-white text-7xl'>Contact Us</h2>
         </div>
       </section>
 
-      <section className='max-w-6xl mx-auto flex gap-16 items-start py-8 flex-col md:flex-row'>
-        <div className='flex flex-col gap-6 items-start w-2/5'>
-          <h6 className='text-white text-[46px] font-bold leading-tight capitalize'>Got any questions?<br/>Let’s chat!</h6>
-          <p className='text-white text-[18px] font-normal'>Have a quick question? Check our FAQs for a quick answer</p>
-          <Image alt="Join Us Image" className='' src={`/images/JoinUs/JoinUsImage.png`} width={390} height={390} />
-          <p className='text-white text-[32px] font-bold uppercase'>Our Socials:</p>
-          <div className='flex gap-5'>
+      <section className='max-w-6xl mx-auto flex gap-5 md:gap-16 items-start py-8 flex-col md:flex-row px-5'>
+        <div className='flex flex-col gap-4 md:gap-6 items-start w-full md:w-2/5'>
+          <h6 className='text-white text-3xl font-bold leading-tight capitalize'>Got any questions?<br/>Let’s chat!</h6>
+          <p className='text-white text-lg font-normal'>Have a quick question? Check our FAQs for a quick answer</p>
+          <Image alt="Join Us Image" className='w-full md:w-auto' src={`/images/JoinUs/JoinUsImage.png`} width={390} height={390} />
+          <p className='text-white text-3xl font-bold uppercase hidden md:block'>Our Socials:</p>
+          <div className='md:flex gap-5 hidden'>
             <a href='' target='_blank' rel='noreferrer noopener'>
               <Image alt="LinkedIn" className='' src={`/images/JoinUs/JoinUs_LinkedIn.png`} width={60} height={60} />
             </a>
@@ -77,13 +77,13 @@ export default function ContactUs() {
             </a>
           </div>
         </div>
-        <div className='flex flex-col gap-4 w-3/5'>
+        <div className='flex flex-col gap-4 w-full md:w-3/5'>
           <div className='flex justify-between'>
             <div className='flex flex-col gap-2'>
               <p className='text-[#674C93] text-lg font-bold uppercase'>Call us:</p>
               <p className='text-white text-lg font-bold'>+65 8292 8032</p>
             </div>
-            <div className='flex flex-col gap-2'>
+            <div className='flex flex-col gap-2 sm:mr-20 md:mr-0 lg:mr-20'>
               <p className='text-[#674C93] text-lg font-bold uppercase'>Email us:</p>
               <p className='text-white text-lg font-bold'>info@jalanjourney.com</p>
             </div>
@@ -204,6 +204,18 @@ export default function ContactUs() {
                 </Button>
               </form>
             </Form>
+          </div>
+          <p className='text-white text-center text-3xl font-bold uppercase mt-5 md:hidden'>Our Socials:</p>
+          <div className='flex gap-5 mx-auto md:hidden'>
+            <a href='' target='_blank' rel='noreferrer noopener'>
+              <Image alt="LinkedIn" className='' src={`/images/JoinUs/JoinUs_LinkedIn.png`} width={60} height={60} />
+            </a>
+            <a href='' target='_blank' rel='noreferrer noopener'>
+              <Image alt="Instagram" className='' src={`/images/JoinUs/JoinUs_Instagram.png`} width={60} height={60} />
+            </a>
+            <a href='' target='_blank' rel='noreferrer noopener'>
+              <Image alt="Facebook" className='' src={`/images/JoinUs/JoinUs_Facebook.png`} width={60} height={60} />
+            </a>
           </div>
         </div>
       </section>
