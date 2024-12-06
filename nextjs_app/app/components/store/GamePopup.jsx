@@ -24,10 +24,12 @@ import { DialogDescription } from '@radix-ui/react-dialog';
 import { ResponsiveImage } from '../ResponsiveImage';
 import { FormLabel } from '@/components/ui/form';
 import { storeItemsSchema } from '@/schema';
+import { useRouter } from 'next/navigation';
 
 export const GamePopup = (props) => {
   let { index, cart, setCart, cartOpen, setCartOpen } = props;
   const game = games_info[index];
+  const router = useRouter();
 
   const [open, setOpen] = useState(false);
 
@@ -87,7 +89,7 @@ export const GamePopup = (props) => {
                 <div className='rounded-2xl border-2 border-dark-green w-[6.5rem] h-[6.5rem] bg-white flex items-center justify-center'>
                   {game.imgSrc && <ResponsiveImage alt={`${game.title} icon`} mobileSrc={`/images/Games/${game.imgSrc}`} desktopSrc={`/images/Games/${game.imgSrc}`} mobileSize={80} desktopSize={80}></ResponsiveImage>}
                 </div>
-                <Button onClick={() => router.push("games/"+game.link)} className='text-sm font-bold border-dark-green border-2 rounded-lg bg-light-green text-dark-green hover:border-dark-green hover:text-dark-green hover:bg-normal-green uppercase'>{game.button}</Button>
+                <Button onClick={() => router.push("games/"+game.slug)} className='text-sm font-bold border-dark-green border-2 rounded-lg bg-light-green text-dark-green hover:border-dark-green hover:text-dark-green hover:bg-normal-green uppercase'>{game.button}</Button>
               </div>
             </div>
 

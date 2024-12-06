@@ -31,7 +31,7 @@ const SideBarContent = () => {
   const navFooterData = [
     {
       title: 'Ask Us A Question',
-      route: 'ask',
+      route: 'contactus',
       iconSrc: 'Question.png',
     },
     {

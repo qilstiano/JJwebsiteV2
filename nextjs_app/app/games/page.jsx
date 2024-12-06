@@ -7,10 +7,7 @@ import HeroSection from '../components/HeroSection';
 import GamesCard from '../components/GamesCard';
 import styles from '../styles/Games.module.css';
 
-
-
 const Page = () => {
-
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const gamesInfo = [

@@ -124,10 +124,12 @@ export default function AboutUs() {
           <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5 mt-16'>
             {Team.map((member, index) => {
               return (
-                <div index={index} className='flex flex-col items-center'>
-                  <Image alt={`${member.name} Image`} className='drop-shadow z-30' src={`/images/AboutUs/${member.imgSrc}`} width={120} height={120} />
-                  <p className='drop-shadow bg-[#F1E8DB] w-full p-2 pt-10 -mt-8 rounded-md shadow-[#306054] text-black font-semibold text-lg uppercase'>{member.name}<br />{member.position}</p>
-                </div>
+                <a href="/ourmission">
+                  <div index={index} className='flex flex-col items-center'>
+                    <Image alt={`${member.name} Image`} className='drop-shadow z-30' src={`/images/AboutUs/${member.imgSrc}`} width={120} height={120} />
+                    <p className='drop-shadow bg-[#F1E8DB] w-full p-2 pt-10 -mt-8 rounded-md shadow-[#306054] text-black font-semibold text-lg uppercase'>{member.name}<br />{member.position}</p>
+                  </div>
+                </a>
               )
             })}
           </div>
