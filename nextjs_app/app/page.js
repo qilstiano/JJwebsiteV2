@@ -17,6 +17,7 @@ export default function Home() {
 
   return (
     <main className="h-5/6 bg-slate-200 font-light">
+      
       {/* Hero */}
       <section className='p-4 relative'>
         <HeroSection />

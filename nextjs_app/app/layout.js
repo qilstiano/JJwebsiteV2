@@ -15,14 +15,14 @@ export default function RootLayout({ children }) {
   const pathname = usePathname();
 
   const SpecialPages = [
-    "/", "/login", "/signup", "/forget-password", "/store", "/programmes", "/mypurchases", "/loading"
+    "/login", "/signup", "/forget-password", "/store", "/programmes", "/mypurchases", "/loading"
   ]
 
   return (
     <html lang="en">
       <body className={inter.className}>
         {SpecialPages.indexOf(pathname) < 0 &&
-          <Navbar />
+          <Navbar/>
         }
         <Toaster position="bottom-right" />
         {children}
