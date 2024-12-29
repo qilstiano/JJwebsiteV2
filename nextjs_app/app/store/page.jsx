@@ -58,7 +58,7 @@ export default function Store() {
               <p className="font-bold text-sm text-dark-green text-right leading-tight">{user.name}</p>
             </div>
             <div className="rounded-full w-10 overflow-hidden flex items-center">
-              <Image alt="User Icon" className='' src={`/images/Store/${user.dpSrc}`} width={80} height={80}></Image>
+              <Image alt="User Icon" className='' src={`/images/Store/${user.dpSrc}`} width={80} height={80} />
             </div>
             <Cart cart={cart} setCart={setCart} cartOpen={cartOpen} setCartOpen={setCartOpen} />
           </div>

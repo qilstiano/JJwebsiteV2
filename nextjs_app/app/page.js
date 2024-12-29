@@ -17,9 +17,10 @@ export default function Home() {
 
   return (
     <main className="h-5/6 bg-slate-200 font-light">
+      
       {/* Hero */}
       <section className='p-4 relative'>
-        <HeroSection></HeroSection>
+        <HeroSection />
       </section>
 
       {/* Content that caters to everyone */}
