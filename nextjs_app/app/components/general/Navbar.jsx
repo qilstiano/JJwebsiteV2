@@ -36,11 +36,11 @@ const Navbar = () => {
           <a href="/organisations">Organisations</a>
           <a href="/individuals">Individuals</a>
         </div>
-        <div className={styles.auth}>
+        {/* <div className={styles.auth}>
           <button className={styles.login}>Log In</button>
           <div className={styles.separator}></div>
           <button className={styles.signup}>Sign Up</button>
-        </div>
+        </div> */}
       </nav>
             
       <div className={styles.vineContainer}>

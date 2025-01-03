@@ -15,7 +15,6 @@
   background-size: cover, cover;
   background-position: center, center;
   margin-bottom: -2.9rem;
-  padding: 0 1rem;
   flex-wrap: wrap; 
 }
 
@@ -38,11 +37,10 @@
 .dropdown {
   position: absolute;
   top: 2.5rem;
-  left: 0;
+  left: -2.5rem;
   background-color: rgba(128, 128, 128, 0.8);
   color: white;
   border-radius: 4px;
-  padding: 0.5rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -59,10 +57,12 @@
 }
 
 .links {
+  margin-left: -10rem;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex: 1;
-  order: 2; /* Ensure the links are in the middle */
+  order: 2;
 }
 
 .links a {
