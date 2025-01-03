@@ -27,20 +27,21 @@ export default function RootLayout({ children }) {
         <Toaster position="bottom-right" />
         {children}
 
-        {/* Display only Footer on homepage */}
+        {/* Display only Footer on homepage
         {pathname === "/" && (
           <>
             <Footer isHome={true} />
           </>
-        )}
+        )} */}
 
-        {/* Only display CTA and Footer on specific routes */}
+        {/* Only display CTA and Footer on specific routes
         {SpecialPages.indexOf(pathname) < 0 && (
           <>
             <CTA />
             <Footer />
           </>
-        )}
+        )} */}
+        <Footer />
       </body>
     </html>
   );

@@ -36,9 +36,9 @@ const Footer = (props) => {
         <div className={styles.column}>
           <h4>SOCIALS</h4>
           <ul>
-            <li><a href="http://www.facebook.com" target='_blank'>Facebook</a></li>
-            <li><a href="http://www.linkedin.com" target='_blank'>LinkedIn</a></li>
-            <li><a href="http://www.instagram.com" target='_blank'>Instagram</a></li>
+            <li><a href="https://www.facebook.com/people/Jalan-Journey/100093410354438/" target='_blank'>Facebook</a></li>
+            <li><a href="https://www.linkedin.com/company/jalanjourney" target='_blank'>LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/jalan.journey/" target='_blank'>Instagram</a></li>
           </ul>
         </div>
       </div>

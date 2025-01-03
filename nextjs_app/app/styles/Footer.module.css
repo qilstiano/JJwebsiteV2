@@ -5,10 +5,10 @@
   flex-direction: column;
   justify-content: flex-end;
   text-align: center;
-  padding-top: 320px;
+  padding-top: 295px;
   position: relative;
   min-height: 80vh;
-  background-color: #4B3372;
+  background-color: #4b3372;
 }
 
 .container {
