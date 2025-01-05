@@ -11,13 +11,15 @@ const HeroSection = () => {
  
   return (
     <>
-      <Carousel plugins={[plugin.current]} className="absolute top-0 bottom-0 left-0 right-0 overflow-hidden">
+      <Carousel plugins={[plugin.current]} className="absolute -top-60 bottom-0 left-0 right-0 overflow-hidden">
         <CarouselContent className="absolute top-0 bottom-0 left-0 right-0 ml-0">
-          <CarouselItem className="w-full bg-cover bg-center" style={{ backgroundImage: `url(/images/Homepage/hero-background.jpg)` }}>
+          <CarouselItem className="w-full bg-cover bg-center" style={{ backgroundImage: `url(/images/Homepage/Home1.png)` }}>
           </CarouselItem>
-          <CarouselItem className="w-full bg-cover bg-center" style={{ backgroundImage: `url(/images/Homepage/hero-background.jpg)` }}>
+          <CarouselItem className="w-full bg-cover bg-center" style={{ backgroundImage: `url(/images/Homepage/Home2.png)` }}>
           </CarouselItem>
-          <CarouselItem className="w-full bg-cover bg-center" style={{ backgroundImage: `url(/images/Homepage/hero-background.jpg)` }}>
+          <CarouselItem className="w-full bg-cover bg-center" style={{ backgroundImage: `url(/images/Homepage/Home3.png)` }}>
+          </CarouselItem>
+          <CarouselItem className="w-full bg-cover bg-center" style={{ backgroundImage: `url(/images/Homepage/Home4.png)` }}>
           </CarouselItem>
         </CarouselContent>
       </Carousel>
