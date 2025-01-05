@@ -8,8 +8,8 @@ import {
 
 export default function FAQ() {
   return (
-    <main className="w-full pt-8 flex flex-col bg-[#4B3372] min-h-screen">
-      <section className="bg-[url('/images/Testimonials/TestimonialsMasthead.jpg')] bg-cover bg-center relative">
+    <main className="w-full flex flex-col bg-[#4B3372] min-h-screen">
+      <section className="bg-[url('/images/FAQ/FAQMasthead.jpg')] bg-cover bg-top [background-position:0rem_-10vw] relative">
         <div className='bg-[#674C93AD] absolute top-0 bottom-0 right-0 left-0 z-20'></div>
         <div className='max-w-6xl mx-auto relative z-30 min-h-[350px] flex flex-col justify-center px-5'>
           <h2 className='font-normal text-white text-5xl md:text-7xl'>FAQ</h2>

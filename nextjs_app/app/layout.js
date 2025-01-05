@@ -41,6 +41,7 @@ export default function RootLayout({ children }) {
             <Footer />
           </>
         )} */}
+        <CTA />
         <Footer />
       </body>
     </html>

@@ -87,7 +87,7 @@ const Nav = [
 
 export default function AboutUs() {
   return (
-    <main className="w-full pt-8 flex flex-col bg-gradient-to-r from-light-violet to-extra-light-violet min-h-screen">
+    <main className="w-full flex flex-col bg-gradient-to-r from-light-violet to-extra-light-violet min-h-screen">
       <section className="bg-[url('/images/AboutUs/OurVisionMasthead.jpg')] bg-cover bg-center relative">
         <div className='bg-[#674C93AD] absolute top-0 bottom-0 right-0 left-0 z-20'></div>
         <div className='max-w-6xl mx-auto relative z-30 min-h-[350px] flex flex-col justify-center px-5'>
