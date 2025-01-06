@@ -11,6 +11,7 @@ export const games_info = [
     "category": ["individuals", "institutions"],
     "connections": 50,
     "price": 3,
+    "link": "runway",
     "links": [
       "www.runway.com",
       "www.runway.ts"

@@ -2,7 +2,6 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import TempNavbar from '../components/TempNavbar';
 import HeroSection from '../components/HeroSection';
 import GamesCard from '../components/GamesCard';
 import styles from '../styles/Games.module.css';
@@ -78,7 +77,6 @@ const Page = () => {
 
   return (
     <div>
-      <TempNavbar />
       <HeroSection />
       {/* stakeholders section */}
       <div className={styles.container}>
