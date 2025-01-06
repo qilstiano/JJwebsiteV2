@@ -18,13 +18,15 @@ export default function Home() {
   return (
     <main className="h-5/6 bg-slate-200 font-light ">
       
-      {/* Hero */}
       <section className='p-4 relative -mb-10'>
-        <HeroSection />
+        {/* Hero Section */}
+        <HeroSection className="relative z-20" />
+       
       </section>
 
+
       {/* Content that caters to everyone */}
-      <section className='bg-gradient-to-b from-black to-[#306054] px-8 pt-24 relative z-30'>
+      <section className='bg-gradient-to-b from-black to-[#306054] px-8 pt-24 relative z-50'>
         <Image alt="Jalan Journey logo" className='-mt-36 mx-auto mb-12' src={"/images/Homepage/Hero_Logo.png"} width={140} height={140}></Image>
         <Image alt="Left tree" className='w-2/6 absolute -top-16 md:-top-1/4 left-0' src={"/images/Homepage/Hero_LeftTree.png"} width={500} height={500}></Image>
         <Image alt="Right tree" className='w-2/6 absolute -top-16 md:-top-1/4 right-0' src={"/images/Homepage/Hero_RightTree.png"} width={500} height={500}></Image>

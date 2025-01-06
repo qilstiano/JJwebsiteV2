@@ -91,7 +91,7 @@ const RecycleMePage = () => {
 
           {/* Right Column */}
           <div className="ml-2 flex flex-col items-left justify-center">
-            <div className="bg-gray-300 w-32 h-32 mb-4 rounded"></div>
+            <img src="./images/Games/RecycleMe.png" className="bg-gray-300 w-32 h-32 mb-4 rounded" alt="RecycleMe" />
             {/* Mini Game Button */}
             <div className="bg-[#A2C17C] w-32 h-8 text-center text-xs text-[#306054] outline-2 outline-offset-2 outline-green-200 uppercase font-bold py-2 rounded-lg shadow-md flex items-center justify-center">
               Mini Game
@@ -101,8 +101,7 @@ const RecycleMePage = () => {
             <video
               controls
               className="bg-gray-300 w-full h-60 rounded-lg mt-4"
-              src="/path/to/your/video.mp4" // Replace with your actual video source
-              poster="/path/to/your/video-poster.jpg" // Optional: Replace with a poster image
+              src="./videos/RecycleMe Teaser.mp4" // Replace with your actual video source
             >
               Your browser does not support the video tag.
             </video>
@@ -113,14 +112,14 @@ const RecycleMePage = () => {
       {/* About Section */}
       <div className="mt-12 w-full max-w-5xl p-4 text-white">
         <h2 className="text-2xl font-bold mb-4">About RecycleMe</h2>
-        <p className="text-white mb-6">
+        <p className="text-white text-xl mb-6">
           Advised by local experts, RecycleMe teaches students to recycle household items according to
           government standards. Players process items on a conveyor belt through a wash bin or
           workbench before placing them in the correct recycling or waste bin. Correct actions earn
           10 points, while mistakes deduct 5 points.
         </p>
-        <h3 className="text-xl font-bold text-white mb-2">Learning Outcomes</h3>
-        <ul className="list-disc list-inside text-white space-y-2">
+        <h3 className="text-2xl font-bold text-white mb-2">Learning Outcomes</h3>
+        <ul className="list-disc text-xl list-inside text-white space-y-2">
           <li><strong>Recycling Literacy:</strong> Players learn proper recycling methods by processing household items per government standards.</li>
           <li><strong>Materials Identification:</strong> Players improve their ability to identify and recycle different materials correctly.</li>
           <li><strong>Environmental Stewardship:</strong> Players develop a sense of responsibility for sustainable practices and environmental conservation.</li>
