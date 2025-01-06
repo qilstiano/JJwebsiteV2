@@ -105,7 +105,7 @@ const Navbar = () => {
       </nav>
 
       {/* Decorative Vine */}
-      <div className="absolute -bottom-3.5 w-full flex justify-center z-40">
+      <div className="absolute -bottom-4 w-full flex justify-center z-40">
         <Image
           src="/images/Vine2.svg"
           alt="Vine"
